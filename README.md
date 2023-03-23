@@ -14,3 +14,7 @@ In the NoSQL_analysis.ipynb Jupyter Notebook, pymongo queries and aggregation pi
   <li>What are the top 5 establishments with a RatingValue of '5', sorted by lowest hygiene score, nearest to the new restaurant added, Penang Flavours?</li>
   <li>How many establishments in each Local Authority area have a hygiene score of 0? </li>
 </ol>
+
+## Data Source
+<a href=https://www.food.gov.uk/>UK Food Standards Agency</a> (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GB. Contains public sector information licensed under the <a href=https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>Open Government Licence v3.0</a>.
+Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
